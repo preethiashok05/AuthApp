@@ -1,0 +1,19 @@
+{
+  "name": "authapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preethiashok05/AuthApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preethiashok05/AuthApp/issues"
+  },
+  "homepage": "https://github.com/preethiashok05/AuthApp#readme"
+}
