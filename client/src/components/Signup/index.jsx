@@ -19,10 +19,10 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			// const url = "http://localhost:3001/api/users";
-			// const { data: res } = await axios.post(url, data);
+			const url = "https://my-project.herokuapp.com/api/users";
+			const { data: res } = await axios.post(url, data);
 			navigate("/login");
-			//console.log(res.message);
+			console.log(res.message);
 		} catch (error) {
 			if (
 				error.response &&
