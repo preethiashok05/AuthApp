@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    background-color:
+}
+
+.container{
+    background-color:rgba(173, 210, 243, 0.618);
+}
+
+fieldset{
+    width:100%;
+    height:max-content;
+    
+}
