@@ -19,7 +19,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://authappwithprofile.herokuapp.com/api/users";
+			const url = "https://localhost:3001/api/users";
 			const { data: res } = await axios.post(url, data);
 			navigate("/login");
 			console.log(res.message);

@@ -15,9 +15,10 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://authappwithprofile.herokuapp.com/api/auth";
+			console.log("first done");
+			const url = "https://localhost:3001/api/auth";
 			const { data: res } = await axios.post(url, data);
-			localStorage.setItem("token", res.data);
+			console.log(res);
 			window.location = "/profile";
 			
 		} catch (error) {

@@ -3,8 +3,9 @@ const {User} = require("../models/user");
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
 
-router.post("/" , async(req, res)=> {
+router.post("/login" , async(req, res)=> {
     try {
+        console.log("hello");
         const {error } = validate(req.body);
         if (error)
             return res.status(400).send({message:error.details[0].message});
